@@ -16,14 +16,23 @@
     <h2>Forms</h2>
     <form action="/index.html">
       <label for="user"> Username </label>
-      <input name="user" type="text" id="user" />
+      <input
+        maxlength="16"
+        minlength="4"
+        name="user"
+        type="text"
+        id="user"
+        placeholder="Username"
+        required
+      />
       <label>Email</label>
-      <input name="email" type="email" />
+      <input name="email" type="email" placeholder="email" required />
       <select name="products" id="product">
         <option value="">Macbook</option>
         <option value="">Iphone</option>
         <option value="">Windows</option>
       </select>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
       <button type="submit">Submit</button>
     </form>
   </body>
