@@ -1,0 +1,23 @@
+h1 {
+  color: navy;
+}
+
+.headline h1 {
+  color: rgb(23, 139, 0);
+}
+* {
+  font-size: 20px;
+}
+
+.nav-links li {
+  color: gold;
+  list-style: lower-greek;
+}
+
+.nav-links li a {
+  color: rgb(25, 170, 175);
+}
+
+.nav-links li:nth-child(3) {
+  color: rgb(163, 15, 15);
+}
