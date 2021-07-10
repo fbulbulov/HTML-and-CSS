@@ -18,10 +18,11 @@ button {
   padding: 2rem 4rem;
   background: none;
   border: 0.3rem solid rgb(111, 82, 207);
-  color: rgb(111, 82, 207);
+  color: wheat;
   font-size: 2.4rem;
   /*border-radius: 50%;
   height: 20rem;
   width: 20rem;*/
   border-radius: 1rem;
+  background-color: seagreen;
 }
