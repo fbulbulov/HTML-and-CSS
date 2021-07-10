@@ -4,10 +4,10 @@ html {
 */
 
 .text-selection {
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .text-selection div {
-  font-size: 1.7em;
+  font-size: 1.7rem;
   margin-top: 1em;
 }
