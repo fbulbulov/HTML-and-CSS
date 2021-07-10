@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  background: cadetblue;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 20%;
+  height: 20%;
+  background: crimson;
+}
+
+.box2 {
+  background: navy;
+}
+.box3 {
+  background: black;
+}
+
+.box1 {
+  position: absolute;
+  bottom: 0rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
