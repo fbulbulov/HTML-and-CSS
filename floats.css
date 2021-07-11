@@ -10,9 +10,12 @@ html {
 .box1,
 .box2,
 .box3 {
-  width: 80rem;
+  width: 60rem;
   height: 30rem;
   border: 2px solid black;
   margin: 1rem;
   font-size: 2.8rem;
+}
+.box2 {
+  float: right;
 }
