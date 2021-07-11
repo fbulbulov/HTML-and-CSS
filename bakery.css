@@ -56,7 +56,8 @@ nav li {
   margin: 0rem 4rem;
 }
 
-.h-section {
-  background: yellowgreen;
-  height: 30rem;
+.hero-section {
+  background-image: url("img/bakery.jpg");
+  background-size: 90rem;
+  height: 60rem;
 }
