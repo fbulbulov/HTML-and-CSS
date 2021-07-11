@@ -15,16 +15,27 @@ h1 {
 }
 
 a {
-  color: black;
+  color: rgb(241, 232, 232);
   text-decoration: none;
   font-size: 15px;
 }
 
 h2 {
   font-size: 26px;
-  padding: 5rem, 0rem;
+  padding: 5rem, 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 17px;
 }
 
 button {
   font-size: 13px;
+}
+
+nav {
+  background-color: rgb(61, 81, 102);
+  color: rgb(241, 232, 232);
 }
