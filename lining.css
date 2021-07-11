@@ -8,15 +8,13 @@ html {
   font=size: 62.5%;
 }
 
-button {
-  padding: 2rem 4rem;
-  cursor: pointer;
-}
-
 button:hover {
   background: lightslategray;
 }
-
 input:focus {
   background: rgb(141, 193, 245);
+}
+button:nth-child(2) {
+  padding: 2rem 4rem;
+  cursor: pointer;
 }
