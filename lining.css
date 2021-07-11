@@ -16,3 +16,7 @@ button {
 button:hover {
   background: lightslategray;
 }
+
+input:focus {
+  background: rgb(141, 193, 245);
+}
