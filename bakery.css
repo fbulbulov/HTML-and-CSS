@@ -26,6 +26,7 @@ a {
 
 h2 {
   font-size: 26px;
+  margin-top: 1rem;
 }
 
 h3 {
@@ -64,4 +65,40 @@ nav li {
   color: wheat;
   padding: 15rem;
   text-shadow: 3px 3px 3px black;
+}
+
+.hero-section button {
+  margin-top: 4rem;
+  padding: 0.5rem 2rem;
+  background: rgb(61, 81, 102);
+  border: none;
+  color: wheat;
+  cursor: pointer;
+}
+
+.form-section {
+  text-align: center;
+}
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 20px;
+}
+
+form input,
+form textarea {
+  margin: 1rem auto;
+  width: 50%;
+}
+
+form button {
+  margin-top: 0.5rem;
+  margin-bottom: 4rem;
+  padding: 0.5rem 2rem;
+  background: rgb(61, 81, 102);
+  border: none;
+  color: wheat;
+  cursor: pointer;
+  width: 50%;
 }
