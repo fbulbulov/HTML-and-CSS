@@ -60,4 +60,8 @@ nav li {
   background-image: url("img/bakery.jpg");
   background-size: 90rem;
   height: 60rem;
+  text-align: center;
+  color: wheat;
+  padding: 15rem;
+  text-shadow: 3px 3px 3px black;
 }
